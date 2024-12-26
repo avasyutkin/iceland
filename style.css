@@ -1,0 +1,223 @@
+@font-face { font-family: Segoe UI Black; src: url('fonts/Segoe UI Black.ttf'); }
+@font-face { font-family: Segoe UI Light; src: url('fonts/Segoe UI Light.ttf'); }
+@font-face { font-family: Segoe UI Semibold; src: url('fonts/Segoe UI Semibold.ttf'); }
+@font-face { font-family: Segoe UI Semilight; src: url('fonts/Segoe UI Semilight.ttf'); }
+@font-face { font-family: Segoe UI Bold; src: url('fonts/Segoe UI Полужирный.ttf'); }
+@font-face { font-family: Segoe UI; src: url('fonts/Segoe UI.ttf'); }
+
+
+.background {
+    background-image: url(pic/dffvgjkjml.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    
+}
+
+.blur {
+    height: 100vh;
+    width: 45%;
+    backdrop-filter: blur(2vh);
+    background: rgba(255, 255, 255, 0.2);
+    z-index: 2;
+    display: inline-block;
+    
+    position: relative;
+    animation: showLeft 2s;
+    
+}
+
+@keyframes showLeft {
+
+from {left:-100%;}
+
+to {left:0;}
+
+}
+
+.text-ice {
+    font-family: Segoe UI Bold;
+    font-size: 29vh;
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+    background-image: url(pic/dffvgjkjml-contrast.jpg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    float: right;
+    z-index: 2;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.2);
+    
+    margin-top: 11vh;
+    margin-right: 0.6vw;
+}
+
+.row-for-header {
+    width: 97%;
+    font-family: Segoe UI Semibold;
+    color: #828689;
+    font-size: 1vw;
+    position: absolute;
+    z-index: 3;
+    margin-top: 1.8vh; 
+    margin-left: auto;
+    text-align: center;
+}
+
+.icons-row-in-header {
+    
+}
+
+.icon-in-header {
+    width: 3.35vh;
+    margin-left: 0.6vw;
+    display: inline-block;
+    margin-top: -0.7vh;
+}
+
+.followus-in-header {
+    margin-right: 3vw;
+    display: inline-block;
+    margin-left: -2vw;
+}
+
+
+.col {
+    text-align: center;
+}
+
+.text-land {
+    position: absolute;
+    width: 54%;
+    font-family: Segoe UI Bold;
+    float: right;
+    font-size: 27vh;
+    display: inline-block;
+    margin-top: 36vh;
+    color: #fff;
+}
+
+.text-adventure {
+    float: right;
+    display: inline-block;
+    margin-top: 23vh;
+    font-family: Segoe UI Light;
+    letter-spacing: 2vh;
+    color: #7b7b7b;
+    -webkit-writing-mode: vertical-rl;
+    font-size: 7.5vh;
+    transform:scale(-1);
+    margin-left: 100px;
+
+}
+
+.block-discover-tours {
+    position: absolute;
+    display: inline-block;
+    bottom: 100px;
+    z-index: 3;
+    right: 50px;
+}
+
+.header-block-discover-01 {
+  
+}
+
+.text-discover-tours {
+    display: inline-block;
+    color: #fff;
+    font-family: Segoe UI Semibold;
+    font-size: 2.3vw;
+    position: absolute;
+    margin-left: 8vw;
+}
+
+.text-01-header {
+    display: inline-block;
+    font-family: Segoe UI Bold;
+    font-size: 2.3vw;    
+    color: #7b7b7b;
+    margin-left: 2.57vw;
+    position: absolute;
+}
+
+.block-descriptions {
+    margin-top: 9.2vh;
+}
+
+.block-gray-point {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 1vh;
+    border-radius: 50%;
+    width: 0.8vw;
+    height: 0.8vw;
+    border: 0.1vw solid #7b7b7b;
+    background: #7b7b7b;
+    position: absolute;
+
+}
+
+.block-empty-points-1 {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    margin-top: 1vh;
+    width: 0.8vw;
+    height: 0.8vw;
+    border: 0.1vw solid #7b7b7b;
+    background: rgba(205, 214, 219, 0);
+    position: absolute;
+    margin-left: 2.4vw;
+}
+
+.block-empty-points-2 {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    margin-top: 1vh;
+    width: 0.8vw;
+    height: 0.8vw;
+    border: 0.1vw solid #7b7b7b;
+    background: rgba(205, 214, 219, 0);
+    position: absolute;
+    margin-left: 3.4vw;
+}
+
+.block-empty-points-3 {
+    display: inline-block;
+    vertical-align: top;
+    border-radius: 50%;
+    margin-top: 1vh;
+    width: 0.8vw;
+    height: 0.8vw;
+    border: 0.1vw solid #7b7b7b;
+    background: rgba(205, 214, 219, 0);
+    position: absolute;
+    margin-left: 4.4vw;
+}
+
+.block-description-text {
+    display: inline-block;
+    font-family: Segoe UI;
+    color: #7b7b7b;
+    font-size: 1.07vw;
+    margin-left: 8vw;
+        
+}
+
+.view-all-trips {
+    margin-top: 4vh;
+    margin-left: 8vw;
+    position: absolute;
+    width: 20vw;
+    font-family: Segoe UI Semibold;
+    font-size: 2.25vh;
+    color: #fff;
+}
+
+
